@@ -1,0 +1,8 @@
+.myPostClass {
+  max-width: 50%;
+  margin: 25px auto;
+  padding: 15px;
+  background-color: lightblue;
+  border-radius: 10px;
+  border: 2px solid lightcoral;
+}

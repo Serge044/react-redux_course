@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: aqua;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #3aa23e;
+  box-shadow: 0 5px #667;
+  transform: translateY(4px);
+}

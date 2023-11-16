@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla JS</title>
+    <style>
+      .app {
+        text-align: center;
+      }
+
+      .green-btn {
+        color: white;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <button id="my-btn" onclick="changeButton('my-btn')">Click me</button>
+      <button id="my-btn2" onclick="changeButton('my-btn2')">Click me 2</button>
+    </div>
+
+    <script>
+      function changeButton(buttonId) {
+        const myBtn = document.getElementById(buttonId);
+        myBtn.innerText = "text was changed by click";
+        // myBtn.classList.add("green-btn");
+        myBtn.className = "green-btn";
+      }
+    </script>
+  </body>
+</html>

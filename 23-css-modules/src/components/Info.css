@@ -1,0 +1,12 @@
+h1 {
+  color: green;
+}
+
+.my-btn {
+  background-color: darkorange;
+}
+
+.info {
+  border: 2px solid red;
+  border-radius: 10px;
+}
